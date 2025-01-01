@@ -1,0 +1,6 @@
+[submodule "nvim/.config/nvim"]
+	path = nvim/.config/nvim
+	url = https://github.com/arltk/nvim
+[submodule "wallpapers/Pictures/wallpapers"]
+	path = wallpapers/Pictures/wallpapers
+	url = git@github.com:arltk/wallpapers

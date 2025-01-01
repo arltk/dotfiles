@@ -1,0 +1,26 @@
+[user]
+  name = Kaden Arlt
+  email = arltk@protonmail.com
+
+[core]
+  editor = nvim
+
+[init]
+  defaultBranch = master
+
+# Delta setup
+[core]
+  pager = delta
+
+[interactive]
+  diffFiulter = delta --color-only
+
+[delta]
+  navigate = true # use n and N to move between diff sections
+  dark = true # disable terminal color auto-detection & force dark mode, your eyes will thank you
+
+[merge]
+  conflictstyle = diff3
+
+[diff]
+  colorMoved = default

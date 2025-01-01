@@ -1,0 +1,25 @@
+THEME: doom one
+
+left:
+gentoo logo
+  ++ updates?
+workspaces
+
+center:
+current window title
+open windows
+
+right:
+minimal tray
+kernel
+language?
+temp
+cpu
+ram
+disk
+bluetooth (if enabled)
+networking
+audio
+battery
+time
+poweroff
