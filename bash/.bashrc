@@ -53,8 +53,8 @@ eval $(keychain --eval --agents gpg --quiet arltk@protonmail.com)
 export PATH="$PATH:$HOME/.cargo/bin"
 
 ### XDG_RUNTIME_DIR
-[ -e XDG_RUNTIME_DIR ] && export XDG_RUNTIME_DIR="/run/user/$(id -u)"
-[ ! -d "$XDG_RUNTIME_DIR" ] && mkdir "$XDG_RUNTIME_DIR" && chmod 700 "$XDG_RUNTIME_DIR"
+[ -e $XDG_RUNTIME_DIR ] && export XDG_RUNTIME_DIR="/run/user/$(id -u)"
+[ ! -d "$XDG_RUNTIME_DIR" ] && mkdir -p "$XDG_RUNTIME_DIR" && chmod 700 "$XDG_RUNTIME_DIR"
 
 ### FZF
 eval "$(fzf --bash)"
