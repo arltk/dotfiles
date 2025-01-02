@@ -21,6 +21,7 @@
   ],
   "modules-right": [
     //"idle_inhibitor", // ?
+    "custom/left-spacer",
     "tray",
     //"power-profiles-daemon", // Performance/balanced/power-saver, probably not needed
     "custom/kernel",
@@ -294,6 +295,9 @@
     "format": " {}",
     "interval": "3600",
     //"max-length": 20,
-    "exec": "uname -r | awk -F '.' '{ print $1, $2, $3, $(NF) }' | sed 's/ /./g'"
+    "exec": "uname -r | awk -F '.' '{ print $1, $2, $3 }' | sed 's/ /./g' | sed 's/-[-a-zA-Z0-9]*$//'"
+  },
+  "custom/left-spacer": {
+    "format": " "
   }
 }

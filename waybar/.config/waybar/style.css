@@ -66,6 +66,7 @@ tooltip label {
 #custom-logo,
 #workspaces,
 #window,
+#custom-left-spacer,
 #tray,
 #custom-kernel,
 #language,
@@ -86,7 +87,7 @@ tooltip label {
 }
 
 #custom-logo,
-#tray {
+#custom-left-spacer {
   margin-left: 20px;
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
@@ -118,6 +119,10 @@ tooltip label {
 
 #custom-logo {
   color: magenta;
+}
+
+#custom-left-spacer {
+  padding: 5;
 }
 
 #custom-kernel {

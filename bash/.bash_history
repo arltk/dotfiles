@@ -1,92 +1,3 @@
-nvim waypaper/.config/waypaper/config.ini 
-clear
-exit
-pass generate -c Sites/patreon.com
-pass edit Sites/patreon.com 
-clear
-curl data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQAAAAB0CZXLAAADIklEQVR4nO2ZQW7jOBBFH80A9I6+AX0SMXOsBtSWHM/BpJ6L0Dco7WhA1p+Fk22SRSPNBlKAIED6i0eyfqkoOvF+7D54/y34Fny1AKkCDNbHi9ZUExlnThtAklqBzJKdAC9fKjXXbF3corQ2ArkD5HY4G/TT3Y9RYdrPaQLObvw6ht8nGAQ3d3Nk+2MM7wp0YBlRCSLX2T3/CYZ3BU4bzu7p6Qq3I3Oc9QIMGhuCnJ07KIXrLT9RidPy8+Cu4+LcUyOQ6DXMmy8roClMEN+etwD5qSLWhdkGyYBUqRlnzgZddGlqFF3cAV4A4az7oYvjsl5vxzZmcgf8t+yWDQBfYM8eWHbc86W0AYmkuXZR5jWmNalAmHAaGf6qpJU02wmvNUEomsJGF2V9amUUD2dN8WzQp5VQKpoljXFNYyPtwSMfsp0AWJEqtYsy8M3kA5ImurjhNb4t92xZUjuNFlLNFQYjrmmlpoqkLY4MzUB+cqqJW1zxZSVIChPOTnFNrYwCSVuYzWmkTyqVSs2P3UEzztrB7fl2ine3xjC7Y1DQXmlbRvovZPggJM2aGHQxki81SbXDacOXoRH7f8p6rjqNeOsTVKTaxVkjfVO7xS5sOPNak1dNUpBlG8yrlaRF0gZxiyNDIakAzh6XbyQfHt8sZ05jXBOo1KzZss7Wt2T/D0LSrC1uEC+SVDTRxVky38z34rWH4RTXuPJIWrJkg7VTH5A0BUm6vNqfTAfxbE31tLdnfi3DAbjCHk3hhY6fh/vx6xg+CEmzpLPGqLImqDnMkraoxjaD74VUOzqcefPFixRE1gb09O04S1OY4oa3QVJNNWuLWzw39Pfgzf7OenyBIE10ZIOmapQkaYsX69EDU5Zt0KW0styfqg/OOXe2expxWbq5Peigw/34bzuQZMlYLtcRlZuD+iu+4Iw0NgL5sL+zU5T54hUE2l47mNaKmLNzGoHlGKY96DDY/fjj2MZMPr3e5Yj3fDuWObH8I2Dx5f41DL9H4LThdLmuPF1hP8eX5XkZ+eFCaQPy7cDrFMeoIlUqYSMbcWymp3XfR8nfgr9N8D/L54AayP45lwAAAABJRU5ErkJggg== | zbarimg --raw | pass otp append Sites/patreon.com 
-curl data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQAAAAB0CZXLAAADIklEQVR4nO2ZQW7jOBBFH80A9I6+AX0SMXOsBtSWHM/BpJ6L0Dco7WhA1p+Fk22SRSPNBlKAIED6i0eyfqkoOvF+7D54/y34Fny1AKkCDNbHi9ZUExlnThtAklqBzJKdAC9fKjXXbF3corQ2ArkD5HY4G/TT3Y9RYdrPaQLObvw6ht8nGAQ3d3Nk+2MM7wp0YBlRCSLX2T3/CYZ3BU4bzu7p6Qq3I3Oc9QIMGhuCnJ07KIXrLT9RidPy8+Cu4+LcUyOQ6DXMmy8roClMEN+etwD5qSLWhdkGyYBUqRlnzgZddGlqFF3cAV4A4az7oYvjsl5vxzZmcgf8t+yWDQBfYM8eWHbc86W0AYmkuXZR5jWmNalAmHAaGf6qpJU02wmvNUEomsJGF2V9amUUD2dN8WzQp5VQKpoljXFNYyPtwSMfsp0AWJEqtYsy8M3kA5ImurjhNb4t92xZUjuNFlLNFQYjrmmlpoqkLY4MzUB+cqqJW1zxZSVIChPOTnFNrYwCSVuYzWmkTyqVSs2P3UEzztrB7fl2ine3xjC7Y1DQXmlbRvovZPggJM2aGHQxki81SbXDacOXoRH7f8p6rjqNeOsTVKTaxVkjfVO7xS5sOPNak1dNUpBlG8yrlaRF0gZxiyNDIakAzh6XbyQfHt8sZ05jXBOo1KzZss7Wt2T/D0LSrC1uEC+SVDTRxVky38z34rWH4RTXuPJIWrJkg7VTH5A0BUm6vNqfTAfxbE31tLdnfi3DAbjCHk3hhY6fh/vx6xg+CEmzpLPGqLImqDnMkraoxjaD74VUOzqcefPFixRE1gb09O04S1OY4oa3QVJNNWuLWzw39Pfgzf7OenyBIE10ZIOmapQkaYsX69EDU5Zt0KW0styfqg/OOXe2expxWbq5Peigw/34bzuQZMlYLtcRlZuD+iu+4Iw0NgL5sL+zU5T54hUE2l47mNaKmLNzGoHlGKY96DDY/fjj2MZMPr3e5Yj3fDuWObH8I2Dx5f41DL9H4LThdLmuPF1hP8eX5XkZ+eFCaQPy7cDrFMeoIlUqYSMbcWymp3XfR8nfgr9N8D/L54AayP45lwAAAABJRU5ErkJggg==
-clear
-zbarimg --raw Downloads/patreon-otp.png | pass otp append Sites/patreon.com 
-clear
-pass otp show -c Sites/patreon.com 
-clear
-pass show -c Sites/firearmsdirectclub.com 
-waypaper --restore
-nvim .config/waypaper/config.ini 
-clear
-nvim .config/hypr/hyprland.conf 
-mpvpaper -o "--loop-playlist shuffle" HDMI-A-5 ~/Pictures/wallpaper/
-clear
-man swaybg
-sudo dnf install swaybg
-man swaybg
-swaybg -i ~/Pictures/wallpaper/mp4/silver-dragon.3840x2160.mp4 
-waypaper --monitor HDMI-A-5 
-waypaper --monitor HDMI-A-5 --random
-clear
-man waypaper
-mpvpaper -o "--loop-playlist shuffle" HDMI-A-5 ~/Pictures/wallpaper/
-clear
-swww --help
-swww restore
-clear
-man mpvpaper
-mpvpaper -n 30 HMDI-A-5 ~/Pictures/wallpaper/
-killasdfclear
-clear
-echo 'cycle pause ' | socat - /tmp/mpv-socket
-echo 'cycle pause' | socat - /tmp/mpv-socket
-echo 'cycle pause' | sudo socat - /tmp/mpv-socket
-clear
-killall swww
-killall swww-daemon
-clear
-mpvpaper -n 30 HMDI-A-5 ~/Pictures/wallpaper/
-clear
-mpvpaper -h
-mpvpaper -n 30 * ~/Pictures/wallpaper/
-mpvpaper -n 30 HMDI-A-5 ~/Pictures/wallpaper/
-exit
-sudo fdisk /dev/sda
-sudo mkfs.ext4 /dev/sda1
-clear
-sudo mount /dev/sda1 /mnt
-clear
-exit
-mpvpaper --help
-mpvpaper -o "cycle next"
-echo 'cycle next' | socat - /tmp/mpv-socket
-echo 'cycle next' | socat - /tmp/mpv-socket --verbose
-echo 'cycle next' | socat - /tmp/mpv-socket
-tldr socat
-echo 'cycle next 1' | socat - /tmp/mpv-socket
-echo 'cycle 1' | socat - /tmp/mpv-socket
-mpvpaper HDMI-A-5 ~/Pictures/wallpaper
-sudo dnf install wpaperd
-cd Documents/
-clear
-cd git-repos/
-clear
-git clone ssh://git@github.com/danyspin97/wpaperd
-cd wpaperd/
-clear
-cargo build wpaperd
-cargo install wpaperd
-cargo build --release
-sudo find / -iname wayland-client.pc
-clear
-swww img ~/Pictures/wallpaper/mp4/
-swww img ~/Pictures/wallpaper/mp4/*
-swww img ~/Pictures/wallpaper/mp4/blue-
-swww img ~/Pictures/wallpaper/mp4/blue-poseidon-with-a-sword.3840x2160.mp4 
-swww img ~/Pictures/wallpaper/mp4/blue-poseidon-with-a-sword.3840x2160 
-swww img ~/Pictures/wallpaper/more/zelda-7680x4320.jpg 
-man swww
-swww query
-man swww-img 
-clear
-cd
 cd Documents/
 cd bash-scripts/
 ls
@@ -498,3 +409,92 @@ nvim swww_change.sh
 ./swww_change.sh 
 nvim swww_change.sh 
 clear
+clear
+mkdir Documents/old
+mkdir Documents/old -p
+mv dotfiles-old/ Documents/old/
+clear
+sudo emerge -avuDN pcmanfm
+cd dotfiles/waybar/.config/waybar/
+nvim style.css
+sudo nvim /etc/portage/package.accept_keywords/rebos
+sudo nvim /etc/portage/package.accept_keywords/rebos
+sudo emerge -av x11-misc/pcmanfm
+sudo nvim /etc/portage/package.accept_keywords/rebos
+sudo emerge -av x11-misc/pcmanfm
+echo 'x11-libs libfm gtk # Required by x11-misc/pcmanfm' | sudo tee -a /etc/portage/package.use/rebos 
+echo 'app-crypt/gcr gtk # Required by x11-misc/pcmanfm' | sudo tee -a /etc/portage/package.use/rebos 
+nvim /etc/portage/package.use/rebos 
+sudo nvim /etc/portage/package.use/rebos 
+clear
+sudo emerge -av x11-misc/pcmanfm
+sudo nvim /etc/portage/package.use/rebos 
+sudo emerge -av x11-misc/pcmanfm
+clear
+cd ../../..
+clear
+git add .
+git commit -m "Fixed SWWW & a couple other configs"
+clear
+git push
+clear
+sudo emerge -av hyprland-polkitagent
+sudo emerge -av sys-auth/hyprpolkitagent
+clear
+ls .gnupg/gpg-agent.conf 
+nvim .gnupg/gpg-agent.conf 
+ls
+sudo ls /root
+sudo ls /root/.gnupg
+rm -rf .gnupg
+sudo cp /root/.gnupg .
+sudo cp /root/.gnupg . -r
+source .bashrc
+ls
+ls .gnupg/
+sudo chown arltk --recursive .gnupg
+source .bashrc
+clear
+ssh git@github.com
+clear
+ssh git@github.com
+exit
+ssh git@github.com
+exit
+nvim dotfiles/waybar/.config/waybar/config.jsonc 
+uname -r | awk -F '.' '{ print $1, $2, $3 }' | sed 's/ /./g'
+uname -r | awk -F '.' '{ print $1, $2, $3 }' | sed 's/ /./g' | sed 's/-*$//'
+uname -r | awk -F '.' '{ print $1, $2, $3 }' | sed 's/ /./g' | sed 's/-[a-zA-Z]$//'
+uname -r | awk -F '.' '{ print $1, $2, $3 }' | sed 's/ /./g' | sed 's/-[a-zA-Z]+$//'
+uname -r | awk -F '.' '{ print $1, $2, $3 }' | sed 's/ /./g' | sed 's/-[a-zA-Z]*$//'
+uname -r | awk -F '.' '{ print $1, $2, $3 }' | sed 's/ /./g' | sed 's/-[-a-zA-Z]*$//'
+nvim dotfiles/waybar/.config/waybar/config.jsonc 
+killall waybar
+waybar &
+nvim dotfiles/waybar/.config/waybar/style.css
+clear
+nvim dotfiles/waybar/.config/waybar/config.jsonc 
+killall waybar
+waybar &
+nvim dotfiles/waybar/.config/waybar/style.css
+killall waybar && waybar &
+killall waybar && waybar &
+killall waybar
+waybar &
+nvim dotfiles/waybar/.config/waybar/style.css
+nvim dotfiles/waybar/.config/waybar/config.jsonc 
+killall waybar
+waybar &
+nvim dotfiles/waybar/.config/waybar/style.css
+killall waybar
+waybar &
+nvim dotfiles/waybar/.config/waybar/style.css
+waybar &
+waybar &
+killall waybar
+nvim dotfiles/waybar/.config/waybar/style.css
+waybar &
+clear
+exit
+clear
+nvim rebos/gentoo/002-wm/
