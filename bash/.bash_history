@@ -1,101 +1,3 @@
-cd Documents/
-cd bash-scripts/
-ls
-clear
-cd ~/.config/hypr/
-nvim
-man sort
-man shuf
-clear
-ls
-ls . | sort -R
-clear
-cd
-clear
-cd Documents/bash-scripts/
-clear
-cd ~/.config/hypr/
-clear
-mkdir bak
-clear
-rm bak
-clear
-cp sww* bak
-clear
-nvim swww_randomize_multi.sh 
-nvim hyprland.conf 
-./swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-clear
-nvim swww_randomize_multi.sh 
-clear
-nvim hyprland.conf 
-nvim swww_randomize_multi.sh 
-nvim hyprland.conf 
-nvim swww_randomize_multi.sh 
-nvim hyprland.conf 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-head -n 1 ~/.local/state/swww-switch-random.txt | read -r img | echo "$1"
-nvim swww_switch_random.sh 
-head -n 1 ~/.local/state/swww-switch-random.txt | read -r img | echo "$img"
-head -n 1 ~/.local/state/swww-switch-random.txt 
-bat ~/.local/state/swww-switch-random.txt 
-nvim swww_switch_random.sh 
-bat ~/.local/state/swww-switch-random.txt 
-nvim swww_switch_random.sh 
-./swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-./swww_switch_random.sh ~/Pictures/wallpaper/
-nvim swww_switch_random.sh 
-clear
-nvim hyprland.conf 
-clear
-nvim hyprland.conf 
-clear
-nvim hyprland.conf 
-bash ~/.config/hypr/swww_switch_random.sh 
-bash ~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-clear
-exit
-sudo cp -r dotfiles/ Documents/ /mnt/
-clear
-sudo rm -r /mnt/dotfiles/gpg/
-ls
 cd /mnt
 clear
 tree
@@ -498,3 +400,101 @@ clear
 exit
 clear
 nvim rebos/gentoo/002-wm/
+cd dotfiles/hypr/.config/hypr/
+clear
+nvim hyprland.conf 
+cd ~/dotfiles/swww/.config/scripts/
+ls
+rm swww_*
+cd swww/
+clear
+cp swww_autochange.sh swww_autochange_toggle.sh
+mv swww_autochange_toggle.sh swww_toggle_autochange.sh
+nvim swww_toggle_autochange.sh 
+ps aux | grep ~/.config/scripts/swww/swww_autochange.sh 
+nvim swww_toggle_autochange.sh 
+chmod u+x swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+pgrep ~/.config/scripts/swww/swww_autochange.sh
+pgrep swww_autochange.sh
+pgrep swww_autochange
+pgrep swww_autochange | ps aux -
+pgrep swww_autochange | ps -
+clear
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+pgrep swww_autochange
+echo $?
+pgrep asdfasdf
+echo $?
+nvim swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+ps aux | grep 10003
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+pgrep swww_autochange
+nvim swww_toggle_autochange.sh 
+pgrep swww_autochange
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+pgrep swww_autochange
+./swww_toggle_autochange.sh 
+pgrep swww_autochange
+nvim swww_toggle_autochange.sh 
+pgrep swww_autochange
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+clear
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+clear
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+./swww_toggle_autochange.sh 
+nvim swww_toggle_autochange.sh 
+clear
+cd
+cler
+clear
+cd dotfiles/
+clear
+git add .
+nvim hypr/.config/hypr/hyprland.conf 
+clear
+git add .
+git status
+git commit -m "Added wallpaper changer toggle functionality"
+git push
+clear
+clear
+killall swww_autochange.sh
