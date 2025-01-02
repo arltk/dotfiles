@@ -30,7 +30,7 @@ find "$1" -type f \
         echo "$RANDOM:$img"
     done \
     | sort -n | cut -d':' -f2- \
-    | head -n 2 - \
+    | head -n $(xrandr | grep ' connected' | wc -l) \
     | tee ~/.local/state/swww-switch-random.txt \
     | while read -r img; do
         # Set a different image for each display
