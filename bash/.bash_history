@@ -1,142 +1,3 @@
-cd /mnt
-clear
-tree
-clear
-tree -L 2
-cd dotfiles/hyprland/Pictures/wallpaper/
-cd m
-cd more/
-ls
-rm 7* m* M* o* q* t* w*
-sudo rm 7* m* M* o* q* t* w*
-ls
-cd ..
-clear
-cd
-clear
-cd /mnt/
-ls
-cd dotfiles/
-ls
-clear
-sudo umount /mnt
-sudo umount /mnt --force
-cd
-sudo umount /mnt --force
-clear
-~/.config/hypr/swww_switch_random.sh ~/Pictures/wallpaper/
-clear
-tmux
-tmux attach 1
-tmux attach
-clear
-cd /tmp
-ls
-clear
-cd dotfiles/
-ls
-cd nvim
-ls
-cd ../..
-clear
-rm -rf /tmp/dotfiles
-git clone ssh://git@github.com/arltk/dotfiles --recurse
-clear
-nvim
-tmux
-cd
-tmux
-clear
-sudo nvim .config/hypr/hyprland.conf 
-nvim .config/hypr/hyprland.conf 
-cd /home/arltk
-ls
-ls -al
-sudo ls Documents/
-ls Documents/
-exit
-sudo su -
-clear
-exit
-sudo nvim /etc/fstab
-sudo umount /media/znas 
-sudo mount /media/znas/
-sudo umount /media/znas 
-sudo systemctl daemon-reload
-sudo mount /media/znas/
-clear
-whomai
-clear
-exit
-clear
-nvim .bashrc
-clear
-nvim .bashrc
-clear
-ls .config/scripts/
-ls .config/scripts/swww
-nvim dotfiles
-clear
-swww-dameon
-sudo emerge swww
-sudo emerge -av swww
-swww-daemon &
-clear
-chmod u+x dotfiles/swww/.config/scripts/swww/*
-clear
-clear
-clear
-nvim dotfiles/hypr/.config/hypr/hyprland.conf 
-clear
-cd dotfiles
-ls
-eza
-clear
-stow swww
-clear
-ls ~/.config/scripts/
-ls ~/.config/scripts/swww
-cd ~/.config/scripts/swww/
-mv swww_randomize_multi.sh swww_autochange.sh
-mv swww_switch_random.sh swww_change.sh
-clear
-ls
-ls -al
-./swww_change.sh ~/Pictures/wallpapers/
-nvim ../../hypr/hyprland.conf 
-clear
-ls
-cd ..
-ls
-cd ..
-ls
-nvim hypr/hyprland.conf 
-clear
-clear
-ls
-clear
-cd hypr/
-cd
-clear
-waybar &
-clear
-ls
-~/.config/scripts/swww/swww_autochange.sh 
-kill -9 5349
-ps aux | grep swww
-kill -9 22776 22768
-ls
-ps aux | grep swww
-kill -9 1607
-clear
-nvim .config/hypr/hyprland.conf 
-clear
-clear
-nvim .bashrc
-clear
-clear
-gpg -K
-ps aux | grep 2480
 clear
 ls /etc/sddm.conf.d/01gentoo.conf 
 nvim /etc/sddm.conf.d/01gentoo.conf 
@@ -498,3 +359,158 @@ git push
 clear
 clear
 killall swww_autochange.sh
+cd .config/rebos/
+ls
+rm -rf * .*
+git clone git@github.com:arlt/rebos .
+git clone git@github.com:arltk/rebos .
+clear
+rebos
+clear
+rebos setup
+rebos config init
+clear
+ls
+clear
+mkdir _backup
+cd _backup/
+cp /etc/portage/* .
+cp /etc/portage/* . -r
+clear
+ls
+clear
+cd
+clear
+rebos gen commit "Init"
+rebos gen current build
+chmod u+x .config/rebos/hooks/*
+rebos gen current build
+sudo nvim /etc/portage/package.accept_keywords/rebos 
+rebos gen current build
+sudo nvim .config/rebos/
+nvim .config/rebos/
+echo 'dev-libs/libdbusmenu gtk3 # Required by net-misc/remmina' >> .config/rebos/system_files/portage/package.use/rebos 
+echo 'media-plugins/alsa-plugins pulseaudio # Required by net-misc/remmina' >> .config/rebos/system_files/portage/package.use/rebos 
+nvim .config/rebos/system_files/portage/package.use/rebos 
+rebos gen current build
+nvim .config/rebos/hooks/pre_build 
+rebos gen current build
+cd .config/rebos/system_files/portage/
+ls
+nvim package.use/
+clear
+clear
+cd ../../hooks/
+nvim pre_build 
+clear
+rebos gen current build
+clear
+cd ..
+git status
+git add .
+git status
+clear
+rebos gen commit "Init"
+rebos gen current build
+rebos gen current build
+rm -fz ~/fzf-git.sh/
+rm -rf ~/fzf-git.sh/
+rebos gen current build
+nvim ~/.config/rebos/hooks/post_
+nvim ~/.config/rebos/hooks/post_build 
+rebos gen current build
+rm -rf ~/fzf-git.sh/
+rebos gen current build
+nvim hooks/post_build 
+rebos gen current build
+rm -rf ~/fzf-git.sh/
+rebos gen current build
+clear
+cd ~/dotfiles/wallpapers/Pictures/wallpapers/favorites/
+rm -rf *
+clear
+exit
+nvim ~/.config/rebos/hooks/post_build 
+cd .config/rebos/
+git add .
+git commit -m "Script fixes"
+git push
+clear
+sudo halt
+clear
+echo $SHELL
+clear
+clear
+gpg -K
+sudo chown arltk --recursive .gnupg
+celar
+clear
+source .bashrc
+gpg -K
+chmod 600 .gnupg/ --recursive
+sudo chmod 600 .gnupg/ --recursive
+sudo chown arltk .gnupg/ --recursive
+gpg -K
+clear
+source .bashrc
+gpg -k
+clear
+ls
+clear
+sudo reboot
+clear
+cd ~/dotfiles/wallpapers/Pictures/wallpapers/favorites/
+ls -l
+ls -al
+eza -al 
+eza -al .gnupg/
+sudo chown arltk --recursive .gnupg/
+eza -al .gnupg/
+ls
+rm -rf .gnupg/
+sudo rm -rf .gnupg/
+clear
+sudo cp -r /root/.gnupg .
+sudo chown arltk .gnupg/ --recursive
+clear
+source .bashrc
+nvim .bashrc 
+clear
+cd dotfiles/wallpapers/Pictures/wallpapers/favorites/
+git pull
+clear
+nmcli device wifi connect "Family-Services-WiFi" --ask 
+nmcli device wifi connect "Family-Services-WiFi" --ask
+clear
+git pull
+clear
+ping 1.1.1.1
+ping x.com
+ping github.com
+git pull
+ls
+ls -a
+clear
+git restore .
+ls
+clear
+clear
+cd
+clear
+sudo halt
+nvim .config/rebos/
+cd .config/rebos/
+git add .
+git status
+nvim hooks/post_system_add 
+git add .
+git commit -m "Added ffmpeg & minor script updates"
+git push
+ssh git@github.com
+ssh-add -L
+clear
+gpg-connect-agent updatestartuptty /bye
+git push
+nvim ~/.bashrc
+clear
+exit
