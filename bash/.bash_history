@@ -654,3 +654,66 @@ nvim ~/.config/scripts/swww/
 clear
 nvim .config/hypr/hyprland.conf 
 man find
+cd dotfiles/
+git add .
+git commit -m "SWWW script upgrades, now recurses intentionally
+git commit -m "SWWW script upgrades, now recurses intentionally"
+git push
+clear
+git remote get-url origin 
+git remote set-url origin ssh://git@github.com/arltk/dotfiles
+git push
+clear
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/ 99
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/ 99
+nvim ~/.config/scripts/swww/swww_change.sh 
+clear
+man find
+cd ~/Pictures/
+find wallpapers/ -type f 
+find wallpapers/ -type f -maxdepth 1
+find wallpapers/ -type f -maxdepth 0
+nvim ~/.config/scripts/swww/swww_change.sh 
+find wallpapers/ -type f -maxdepth 0
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/ =1
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/ 1
+nvim ~/.config/scripts/swww/swww_change.sh 
+~/.config/scripts/swww/swww_change.sh ~/Pictures/wallpapers/ 1
+clear
+nvim ~/.config/hypr/hyprland.conf 
+nvim ~/.config/scripts/swww/swww_autochange.sh 
+clear
+ls dotfiles/
+cd /media/znas/
+ls
+cd repos/
+ls
+rm -rf dotfiles
+sudo rm -rf dotfiles
+claer
+clear
+sudo git clone --recurse git@github.com:arltk/dotfiles
+clear
+git clone git@github.com:arltk/dotfiles --recurse /tmp/dotfiles
+sudo cp /tmp/dotfiles/ . -r
+clear
+cd
+clear
