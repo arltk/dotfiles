@@ -25,7 +25,7 @@ RESIZE_TYPE="crop"
 
 DISPLAY_LIST=$(swww query | grep -Po "^[^:]+")
 
-find "$1" -type f \
+find "$1" -maxdepth $2 -type f \
     | while read -r img; do
         echo "$RANDOM:$img"
     done \
