@@ -717,3 +717,47 @@ sudo cp /tmp/dotfiles/ . -r
 clear
 cd
 clear
+cd dotfiles/wallpapers/Pictures/wallpapers/favorites/
+ls
+nvim .
+git status
+ls /tmp/dotfiles/wallpapers/Pictures/wallpapers/favorites/
+cd ../../../..
+clear
+git add .
+git commit -m "Script upgrades"
+git push
+git submodule status
+git submodule sync
+git submodule update
+clear
+git add .
+git status
+clear
+ls /media/znas/repos/
+sudo rm -rf /media/znas/repos/dotfiles
+sudo cp ../dotfiles/ /media/znas/repos/ -r
+sudo dnf install remmina
+clear
+cd dotfiles/hypr/.config/hypr/
+clear
+nvim hyprlock.conf
+hyprlock
+sudo dnf install hyprlock
+clear
+hyprlock
+clear
+nvim hyprlock.conf 
+hyprlock
+clear
+nvim hyprland.conf 
+clear
+nvim hypridle.conf
+clear
+nvim hyprland.conf 
+clear
+nvim hyprland.conf 
+hypridle
+sudo dnf install hyppridle
+sudo dnf install hypridle
+clear
