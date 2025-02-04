@@ -1,6 +1,7 @@
 [user]
   name = Kaden Arlt
   email = arltk@protonmail.com
+	signingkey = 0x488A87DCDB7AC3F6
 
 [core]
   editor = nvim

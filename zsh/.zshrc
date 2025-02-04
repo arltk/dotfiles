@@ -40,12 +40,12 @@ if [ ${gnupg_SSH_AUTH_SOCK_bye:-0} -ne $$ ]; then
 fi
 gpgconf --launch gpg-agent
 
-# Keychain
-eval $(keychain --eval --quiet --agents gpg arltk@protonmail.com) 
-
 # GPG TTY
-export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
+export GPG_TTY=$(tty)
+
+# Keychain
+#eval $(keychain --eval --quiet --agents gpg arltk@protonmail.com) 
 
 # XDG_RUNTIME_DIR
 [ -e XDG_RUNTIME_DIR ] && export XDG_RUNTIME_DIR="/run/user/$(id -u)"

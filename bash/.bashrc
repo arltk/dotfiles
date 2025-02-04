@@ -41,11 +41,11 @@ fi
 gpgconf --launch gpg-agent
 
 # Keychain
-eval $(keychain --eval --agents gpg --quiet arltk@protonmail.com) 
+#eval $(keychain --eval --agents gpg --quiet arltk@protonmail.com) 
 
 # GPG TTY
-export GPG_TTY=$(tty)
 gpg-connect-agent updatestartuptty /bye >/dev/null
+export GPG_TTY=$(tty)
 
 # Cargo
 export PATH="$PATH:$HOME/.cargo/bin"
