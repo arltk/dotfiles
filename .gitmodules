@@ -3,4 +3,7 @@
 	url = https://github.com/arltk/nvim
 [submodule "wallpapers/Pictures/wallpapers"]
 	path = wallpapers/Pictures/wallpapers
-	url = git@github.com:arltk/wallpapers
+	url = https://github.com/arltk/wallpapers
+[submodule "yazi/.config/yazi"]
+	path = yazi/.config/yazi
+	url = https://github.com/arltk/yazi.git

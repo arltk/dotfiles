@@ -31,7 +31,7 @@ unset rc
 export EDITOR=nvim
 
 # Cargo
-export PATH="${PATH}:/home/zregus/.cargo/bin"
+export PATH="${PATH}:$HOME/.cargo/bin"
 
 # SSH
 unset SSH_AGENT_PID
@@ -77,3 +77,13 @@ _fzf_compgen_dir() {
 
 # Zoxide
 [ $(command -v z) ] && echo "hi" && alias cd="z"
+
+# Yazi
+function y() {
+  local tmp="$(mktemp -t "yazi-cwd.XXXXXX")" cwd
+  yazi "$@" --cwd-file="$tmp"
+  if cwd="$(command cat -- "$tmp")" && [ -n "$nwd" ] && [ "$cwd" != "$PWD" ]; then
+    builtin cd -- "$cwd"
+  fi
+  rm -f -- "$tmp"
+}
