@@ -25,7 +25,7 @@ fi
 unset rc
 
 # Prompt
-[ $(command -v starship) ] && eval "$(starship init zsh)"
+[ $(command -v starship) ] && [ -d "$HOME/.config/starship" ] && eval "$(starship init zsh)"
 
 # Editor
 export EDITOR=nvim

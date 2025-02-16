@@ -30,9 +30,6 @@ unset rc
 # Editor
 export EDITOR=nvim
 
-# Cargo
-export PATH="${PATH}:/home/zregus/.cargo/bin"
-
 # SSH
 unset SSH_AGENT_PID
 if [ ${gnupg_SSH_AUTH_SOCK_bye:-0} -ne $$ ]; then
