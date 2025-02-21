@@ -1,0 +1,21 @@
+utodo = [
+    2,
+    0,
+    1,
+]
+
+[pending]
+items = [
+    "Remove SWWW from fedora-server",
+    "Investigate Ansible playbooks for installing fedora rebos server",
+    "Add rsync to rebos",
+    "Add gcc to rebos",
+    "Add lz4-devel to rebos",
+    "Remove fail condition from post_init_add (or add check if repo exists)",
+]
+
+[progress]
+items = []
+
+[finished]
+items = []
