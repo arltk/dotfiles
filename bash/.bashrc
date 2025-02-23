@@ -77,3 +77,4 @@ _fzf_compgen_dir() {
 
 # Zoxide
 [ $(command -v z) ] && echo "hi" && alias cd="z"
+. "$HOME/.cargo/env"
