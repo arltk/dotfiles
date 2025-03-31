@@ -25,7 +25,7 @@ fi
 unset rc
 
 # Prompt
-[ $(command -v starship) ] && eval "$(starship init bash)"
+#[ $(command -v starship) ] && eval "$(starship init bash)"
 
 # Editor
 export EDITOR=nvim
